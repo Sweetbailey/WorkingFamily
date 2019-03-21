@@ -33,10 +33,10 @@ public class Scream : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (HText.enabled)
+        if (PlayerStats.playerEaten)
         {
             scream.PlayOneShot(playerEaten);
-            return;
+            PlayerStats.playerEaten = false;
         }
         if (PlayerStats.scream)
         {

@@ -13,6 +13,7 @@ public static class PlayerStats
     public static bool bgm { get; set; }
     public static bool scream { get; set; }
     public static bool collecting { get; set; }
+    public static bool playerEaten { get; set; }
     
     public static void InitializeP1Size()
     {

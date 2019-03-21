@@ -159,6 +159,7 @@ public class P2Control : MonoBehaviour
             specialBlood.transform.position = tf.transform.position;
             specialBlood.Play();
             HText.enabled = true;
+            PlayerStats.playerEaten = true;
 
         }
     }

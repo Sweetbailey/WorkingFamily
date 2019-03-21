@@ -164,6 +164,7 @@ public class ZombieCharacterControl : MonoBehaviour
             specialBlood.transform.position = tf.transform.position;
             specialBlood.Play();
             HText.enabled = true;
+            PlayerStats.playerEaten = true;
 
         }
 
